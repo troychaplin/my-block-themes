@@ -1,160 +1,174 @@
 {
-  "settings": {
-    "appearanceTools": true,
-    "layout": {
-      "contentSize": "768px",
-      "wideSize": "1024px"
-    },
-    "typography": {
-      "defaultFontSizes": false,
-      "fontFamilies": [
-        {
-          "fontFace": [
-            {
-              "fontFamily": "Roboto",
-              "fontStyle": "normal",
-              "fontWeight": "300",
-              "src": ["file:./assets/fonts/roboto/roboto-300-normal.woff2"]
-            },
-            {
-              "fontFamily": "Roboto",
-              "fontStyle": "normal",
-              "fontWeight": "500",
-              "src": ["file:./assets/fonts/roboto/roboto-500-normal.woff2"]
-            },
-            {
-              "fontFamily": "Roboto",
-              "fontStyle": "italic",
-              "fontWeight": "300",
-              "src": ["file:./assets/fonts/roboto/roboto-300-italic.woff2"]
-            },
-            {
-              "fontFamily": "Roboto",
-              "fontStyle": "italic",
-              "fontWeight": "500",
-              "src": ["file:./assets/fonts/roboto/roboto-500-italic.woff2"]
-            }
-          ],
-          "fontFamily": "Roboto, sans-serif",
-          "name": "Roboto",
-          "slug": "roboto"
-        }
-      ],
-      "fontSizes": [
-        {
-          "name": "Small",
-          "size": "14px",
-          "slug": "small"
-        },
-        {
-          "name": "Medium",
-          "size": "18px",
-          "slug": "medium"
-        },
-        {
-          "name": "Large",
-          "size": "24px",
-          "slug": "large"
-        },
-        {
-          "name": "Extra Large",
-          "size": "32px",
-          "slug": "x-large"
-        }
-      ]
-    }
-  },
-  "styles": {
-    "elements": {
-      "h1": {
-        "typography": {
-          "fontFamily": "var(--wp--preset--font-family--roboto)",
-          "fontSize": "48px",
-          "fontStyle": "normal",
-          "fontWeight": "500"
-        }
-      },
-      "h2": {
-        "typography": {
-          "fontFamily": "var(--wp--preset--font-family--roboto)",
-          "fontSize": "40px",
-          "fontStyle": "normal",
-          "fontWeight": "500"
-        }
-      },
-      "h3": {
-        "typography": {
-          "fontFamily": "var(--wp--preset--font-family--roboto)",
-          "fontSize": "32px",
-          "fontStyle": "normal",
-          "fontWeight": "500"
-        }
-      },
-      "h4": {
-        "typography": {
-          "fontFamily": "var(--wp--preset--font-family--roboto)",
-          "fontSize": "24px",
-          "fontStyle": "normal",
-          "fontWeight": "500"
-        }
-      },
-      "h5": {
-        "typography": {
-          "fontFamily": "var(--wp--preset--font-family--roboto)",
-          "fontSize": "20px",
-          "fontStyle": "normal",
-          "fontWeight": "500"
-        }
-      },
-      "h6": {
-        "typography": {
-          "fontFamily": "var(--wp--preset--font-family--roboto)",
-          "fontSize": "20px",
-          "fontStyle": "italic",
-          "fontWeight": "500"
-        }
-      },
-      "heading": {
-        "typography": {
-          "fontFamily": "var(--wp--preset--font-family--roboto)"
-        }
-      },
-      "link": {
-        "typography": {
-          "fontFamily": "var(--wp--preset--font-family--roboto)",
-          "fontStyle": "normal",
-          "fontWeight": "500"
-        }
-      }
-    },
-    "spacing": {
-      "padding": {
-        "bottom": "0px",
-        "left": "0px",
-        "right": "0px",
-        "top": "0px"
-      }
-    },
-    "typography": {
-      "fontFamily": "var(--wp--preset--font-family--roboto)",
-      "fontSize": "var(--wp--preset--font-size--medium)",
-      "fontStyle": "normal",
-      "fontWeight": "300",
-      "lineHeight": "1.6"
-    }
-  },
-  "templateParts": [
-    {
-      "area": "header",
-      "name": "header",
-      "title": "Header"
-    },
-    {
-      "area": "footer",
-      "name": "footer",
-      "title": "Footer"
-    }
-  ],
-  "version": 3,
-  "$schema": "https://schemas.wp.org/wp/6.8/theme.json"
+	"settings": {
+		"appearanceTools": true,
+		"layout": {
+			"contentSize": "768px",
+			"wideSize": "1024px"
+		},
+		"typography": {
+			"defaultFontSizes": false,
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-300-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-500-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-300-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/roboto/roboto-500-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "Roboto, sans-serif",
+					"name": "Roboto",
+					"slug": "roboto"
+				}
+			],
+			"fontSizes": [
+				{
+					"fluid": true,
+					"name": "Small",
+					"size": "14px",
+					"slug": "small"
+				},
+				{
+					"fluid": true,
+					"name": "Medium",
+					"size": "18px",
+					"slug": "medium"
+				},
+				{
+					"fluid": true,
+					"name": "Large",
+					"size": "24px",
+					"slug": "large"
+				},
+				{
+					"fluid": true,
+					"name": "Extra Large",
+					"size": "32px",
+					"slug": "x-large"
+				}
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"h1": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--roboto)",
+					"fontSize": "48px",
+					"fontStyle": "normal",
+					"fontWeight": "500"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--roboto)",
+					"fontSize": "40px",
+					"fontStyle": "normal",
+					"fontWeight": "500"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--roboto)",
+					"fontSize": "32px",
+					"fontStyle": "normal",
+					"fontWeight": "500"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--roboto)",
+					"fontSize": "24px",
+					"fontStyle": "normal",
+					"fontWeight": "500"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--roboto)",
+					"fontSize": "20px",
+					"fontStyle": "normal",
+					"fontWeight": "500"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--roboto)",
+					"fontSize": "20px",
+					"fontStyle": "italic",
+					"fontWeight": "500"
+				}
+			},
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--roboto)",
+					"fontStyle": "normal",
+					"fontWeight": "500"
+				}
+			},
+			"link": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--roboto)",
+					"fontStyle": "normal",
+					"fontWeight": "500"
+				}
+			}
+		},
+		"spacing": {
+			"padding": {
+				"bottom": "0px",
+				"left": "0px",
+				"right": "0px",
+				"top": "0px"
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--roboto)",
+			"fontSize": "var(--wp--preset--font-size--medium)",
+			"fontStyle": "normal",
+			"fontWeight": "300",
+			"lineHeight": "1.6"
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header",
+			"title": "Header"
+		},
+		{
+			"area": "footer",
+			"name": "footer",
+			"title": "Footer"
+		}
+	],
+	"version": 3,
+	"$schema": "https://schemas.wp.org/wp/6.8/theme.json"
 }
